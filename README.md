@@ -30,38 +30,19 @@ Measure light intensity and adjust LED brightness based on light levels. This pr
 ---
 
 Feel free to explore each project and see how these technologies work together to create a smart monitoring system!
-## Features
-
-- **Temperature and Humidity Monitoring:**
-  - Measures temperature and humidity using a DHT11 sensor.
-  - Displays temperature, humidity, date, and time on an OLED screen.
-  - Logs temperature and humidity data with timestamps.
-
-- **PM2.5 Detection:**
-  - Measures PM2.5 particulate matter concentration using an analog sensor.
-  - Converts sensor readings to micrograms per cubic meter (µg/m³).
-  - Categorizes air quality based on PM2.5 levels.
-  - Displays PM2.5 concentration and air quality category on an OLED screen.
-  - Logs PM2.5 data with timestamps and air quality category.
-
-- **Light Intensity Monitoring:**
-  - Measures ambient light intensity with a light sensor.
-  - Adjusts LED brightness based on light intensity.
-  - Displays light intensity on an OLED screen.
-  - Logs light intensity data with timestamps.
 
 ## Hardware Components
 - **DHT11 Sensor:** Measures temperature and humidity.
-<img src="images/Temperature&Humidity_Sensor.jpeg" alt="Temperature Humidity Sensor" width="500"/>
+<img src="images/Temperature&Humidity_Sensor.jpeg" alt="Temperature Humidity Sensor" width="300"/>
 
 - **PM2.5 Sensor:** Measures particulate matter concentration.
-<img src="images/PM2.5_Sensor.jpeg" alt="PM2.5 Sensor" width="500"/>
+<img src="images/PM2.5_Sensor.jpeg" alt="PM2.5 Sensor" width="300"/>
 
 - **Light Sensor (ADC):** Measures ambient light intensity.
-<img src="images/Touch_Sensor&Light_Sensor.jpeg" alt="Touch Sensor and Light Sensor" width="500"/>
+<img src="images/Touch_Sensor&Light_Sensor.jpeg" alt="Touch Sensor and Light Sensor" width="300"/>
 
 - **SSD1306 OLED Display:** 128x64 pixel display for data visualization.
-<img src="images/OLED_Display.jpeg" alt="OLED Display" width="500"/>
+<img src="images/OLED_Display.jpeg" alt="OLED Display" width="300"/>
 
 - **PWM-Driven Actuator:** Controls LED brightness based on light intensity and PM2.5 levels.
 - **Microcontroller (e.g., ESP32 or similar):** Manages sensor data, display, and PWM control.
